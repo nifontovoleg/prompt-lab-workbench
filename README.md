@@ -114,7 +114,7 @@ Flow:
 
 ```text
 📋 Available prompts
-1️⃣ Choose prompt (1-N) or type "выход"
+1️⃣ Choose prompt (1-N) or type "exit"
 ✅ Selected prompt: ...
 💡 Optional test_input → 🧐 use it? (y/n)
 ⚙️ Model settings (temperature / max_tokens / model)
