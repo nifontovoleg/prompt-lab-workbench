@@ -210,31 +210,31 @@ Interactive defaults when Enter is pressed:
 ## Example session
 
 ```text
-📋 Доступные промпты:
-  1. Генерация структуры кода (code_structure)
-  2. Резюме текста (summary)
-  3. Планирование задач (task_planning)
+📋 Available prompts:
+  1. Code structure generation (code_structure)
+  2. Text summary (summary)
+  3. Task planning (task_planning)
 
-1️⃣ Выберите промпт (1-3) или 'выход' для завершения: 2
-✅ Выбран промпт: Резюме текста
-💡 Доступен тестовый вопрос:
+1️⃣ Choose a prompt (1-3) or type 'exit' to quit: 2
+✅ Selected prompt: Text summary
+💡 Test question available:
 ...
-🧐 Использовать тестовый вопрос? (y/n, по умолчанию n): y
-⚙️ Настройки модели:
-🌡️ Введите temperature (0.0-1.0, по умолчанию 0.7):
-🔢 Введите max_tokens (по умолчанию 2000):
-🤖 Введите модель (по умолчанию gpt-4o-mini):
+🧐 Use the test question? (y/n, default n): y
+⚙️ Model settings:
+🌡️ Enter temperature (0.0-1.0, default 0.7):
+🔢 Enter max_tokens (default 2000):
+🤖 Enter model (default gpt-4o-mini):
 
-⏳ Отправляем запрос к OpenAI...
+⏳ Sending request to OpenAI...
 
-📤 Ответ:
+📤 Answer:
 # ... structured summary ...
 
-Информация о запросе:
-- Модель: gpt-4o-mini-2024-07-18
-- Использовано токенов: 912
-- Промпт токены: 637
-- Ответ токены: 275
+Request info:
+- Model: gpt-4o-mini-2024-07-18
+- Tokens used: 912
+- Prompt tokens: 637
+- Completion tokens: 275
 ```
 
 ---
